@@ -1,0 +1,11 @@
+/home/renancosta/programs/rust-to-solana/mini_blockchain/target/debug/deps/rand_core-aedb0af1e228ea96.d: /home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/lib.rs /home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/block.rs /home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/utils.rs /home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/seedable_rng.rs /home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/unwrap_err.rs /home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/word.rs /home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/../README.md
+
+/home/renancosta/programs/rust-to-solana/mini_blockchain/target/debug/deps/librand_core-aedb0af1e228ea96.rmeta: /home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/lib.rs /home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/block.rs /home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/utils.rs /home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/seedable_rng.rs /home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/unwrap_err.rs /home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/word.rs /home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/../README.md
+
+/home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/lib.rs:
+/home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/block.rs:
+/home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/utils.rs:
+/home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/seedable_rng.rs:
+/home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/unwrap_err.rs:
+/home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/word.rs:
+/home/renancosta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.10.0/src/../README.md:
