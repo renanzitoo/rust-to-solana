@@ -9,7 +9,7 @@ struct Transaction{
 }
 
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 struct Block {
     index: u64,
     timestamp: u64,
@@ -40,7 +40,6 @@ impl Wallet {
 
     fn send(&mut self, to: String, amount: u64) -> Option<Transaction> {
         if self.balance >= amount {
-            self.balance -= amount;
             Some(Transaction {
                 from: self.address.clone(),
                 to,
@@ -117,9 +116,26 @@ fn is_valid_block(block: &Block, previous_block: &Block) -> bool {
 fn main() {
     let difficulty = 2;
 
-    let genesis_block  = mine_block("Genesis_block".to_string(), "0x0".to_string(), difficulty, 0, 1627847260, Vec::new());
+    let mut transactions = Vec::<Transaction>::new();
+
+    let mut wallet1 = Wallet::new(100);
+    let mut wallet2 = Wallet::new(50);
+
+    let tx1 = wallet1.send(wallet2.address.clone(), 20);
+    let tx2 = wallet2.send(wallet1.address.clone(), 10);
+    transactions.push(tx1.unwrap());
+    transactions.push(tx2.unwrap());
+
+
+    let genesis_block  = mine_block("Genesis_block".to_string(), "0x0".to_string(), difficulty, 0, 1627847260, transactions);
     let first_block = mine_block("First block".to_string(), genesis_block.hash.clone(), difficulty, 1, 1627847261, Vec::new());
 
+
+    let mut blocks = Vec::<Block>::new();
+    blocks.push(genesis_block.clone());
+    blocks.push(first_block.clone());
+
+    println!("Wallet1 balance: {}", wallet1.get_balance(&blocks));
 
     println!("Is block valid? {}", is_valid_block(&first_block, &genesis_block));
     println!("{}", generate_address());
