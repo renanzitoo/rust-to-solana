@@ -1,0 +1,2 @@
+fn(axum::extract::State<Arc<std::sync::Mutex<Vec<Url>>>>, axum::extract::Path<std::string::String>) -> impl Future<Output = StatusCode> {delete_url_handler}
+fn(axum::extract::State<Arc<std::sync::Mutex<Vec<Url>>>>, axum::extract::Path<std::string::String>) -> impl Future<Output = StatusCode> {delete_url_handler}: Handler<_, _>

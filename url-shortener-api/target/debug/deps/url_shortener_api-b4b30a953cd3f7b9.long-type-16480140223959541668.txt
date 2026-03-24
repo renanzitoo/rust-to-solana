@@ -1,0 +1,2 @@
+fn(axum::extract::State<Arc<std::sync::Mutex<Vec<Url>>>>, Json<CreateUrlRequest>) -> impl Future<Output = (StatusCode, Json<UrlResponse>)> {create_url_handler}
+fn(axum::extract::State<Arc<std::sync::Mutex<Vec<Url>>>>, Json<CreateUrlRequest>) -> impl Future<Output = (StatusCode, Json<UrlResponse>)> {create_url_handler}: Handler<_, _>
