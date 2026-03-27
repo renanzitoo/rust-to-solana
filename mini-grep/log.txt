@@ -1,0 +1,4 @@
+INFO User logged in
+ERROR Failed to connect
+INFO Request completed
+ERROR Timeout
